@@ -1,0 +1,13 @@
+2026-03-19 11:15:42,448 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-19 11:17:08,767 [INFO ]  step: 50 train/loss: nan lr: 0.000392
+2026-03-19 11:18:18,637 [INFO ]  step: 100 train/loss: nan lr: 0.000385
+2026-03-19 11:19:28,526 [INFO ]  step: 150 train/loss: nan lr: 0.000378
+2026-03-19 12:40:39,457 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-19 12:42:06,299 [INFO ]  step: 50 train/loss: nan lr: 0.000392
+2026-03-19 12:43:15,422 [INFO ]  step: 100 train/loss: nan lr: 0.000385
+2026-03-19 12:44:26,014 [INFO ]  step: 150 train/loss: nan lr: 0.000378
+2026-03-19 12:45:39,981 [INFO ]  step: 200 train/loss: nan lr: 0.000370
+2026-03-19 12:46:50,608 [INFO ]  step: 250 train/loss: nan lr: 0.000363
+2026-03-19 12:48:04,130 [INFO ]  step: 300 train/loss: nan lr: 0.000357
+2026-03-19 12:49:18,805 [INFO ]  step: 350 train/loss: nan lr: 0.000350
+2026-03-19 12:50:35,153 [INFO ]  step: 400 train/loss: nan lr: 0.000343
