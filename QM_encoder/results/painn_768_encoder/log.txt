@@ -1,0 +1,14 @@
+2026-03-21 15:53:19,726 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 15:53:35,171 [INFO ]  step: 50 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 15:53:50,825 [INFO ]  step: 100 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 15:57:12,792 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 16:59:07,703 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 17:03:55,606 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 17:04:11,036 [INFO ]  step: 50 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 17:04:26,563 [INFO ]  step: 100 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 17:04:41,539 [INFO ]  step: 150 train/loss: nan grad_norm: nan lr: 0.000498
+2026-03-21 17:04:56,394 [INFO ]  step: 200 train/loss: nan grad_norm: nan lr: 0.000498
+2026-03-21 17:09:12,040 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 17:10:21,749 [INFO ]  step: 50 train/loss: 1.006788 grad_norm: 0.7198 lr: 0.000499
+2026-03-21 17:13:06,121 [INFO ]  step: 100 train/loss: 0.477115 grad_norm: 1.4817 lr: 0.000499
+2026-03-21 17:15:35,050 [INFO ]  step: 150 train/loss: 0.464557 grad_norm: 1.7535 lr: 0.000498

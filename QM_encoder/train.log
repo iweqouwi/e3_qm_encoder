@@ -1,0 +1,76 @@
+nohup: ignoring input
+配置文件：configs/train_painn_config.yaml
+数据路径：/home/hk/project/qmmm_hdf5
+GPU 数量：3 × 本机 (world_size=3)
+模型后端：PAINN
+[Rank 0/3] 初始化完成，使用 GPU cuda:0
+模型后端：PAINN  |  参数量：3,420,598 (3.42M)
+训练集大小：14352 样本
+验证集大小：145 样本
+目标训练步数：1,000,000
+开始训练...
+[Rank 1/3] 初始化完成，使用 GPU cuda:1
+[Rank 2/3] 初始化完成，使用 GPU cuda:2
+2026-03-21 17:03:55,606 [INFO ]  Reducer buckets have been rebuilt in this iteration.
+2026-03-21 17:04:11,036 [INFO ]  step: 50 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 17:04:26,563 [INFO ]  step: 100 train/loss: nan grad_norm: nan lr: 0.000499
+2026-03-21 17:04:41,539 [INFO ]  step: 150 train/loss: nan grad_norm: nan lr: 0.000498
+2026-03-21 17:04:56,394 [INFO ]  step: 200 train/loss: nan grad_norm: nan lr: 0.000498
+Traceback (most recent call last):
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/resource_sharer.py", line 145, in _serve
+    send(conn, destination_pid)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/resource_sharer.py", line 50, in send
+    reduction.send_handle(conn, new_fd, pid)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/reduction.py", line 184, in send_handle
+    sendfds(s, [handle])
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/reduction.py", line 149, in sendfds
+    sock.sendmsg([msg], [(socket.SOL_SOCKET, socket.SCM_RIGHTS, fds)])
+BrokenPipeError: [Errno 32] Broken pipe
+terminate called without an active exception
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x149e597bc9d0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x145cb4f0c9d0>
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x151521fe09d0>
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1478, in __del__
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1478, in __del__
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1478, in __del__
+    self._shutdown_workers()
+    self._shutdown_workers()
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    self._shutdown_workers()
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1442, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/process.py", line 149, in join
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/process.py", line 149, in join
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+    res = self._popen.wait(timeout)
+    res = self._popen.wait(timeout)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/process.py", line 149, in join
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/popen_fork.py", line 40, in wait
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+    if not wait([self.sentinel], timeout):
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/connection.py", line 936, in wait
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/connection.py", line 936, in wait
+    res = self._popen.wait(timeout)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+    ready = selector.select(timeout)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/selectors.py", line 416, in select
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/selectors.py", line 416, in select
+    ready = selector.select(timeout)
+  File "/home/hk/miniconda3/envs/qm2mol/lib/python3.10/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt: 
+KeyboardInterrupt: 
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt: 
+/home/hk/miniconda3/envs/qm2mol/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
