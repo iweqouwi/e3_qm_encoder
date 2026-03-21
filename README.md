@@ -1,1 +1,0 @@
-# e3_qm_encoder
